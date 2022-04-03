@@ -135,8 +135,76 @@ void on_message(const TcpConnectionPtr &, Buffer *, Timestamp);
 - 当用户进行连接或者断开连接时便会调用**on_connection**方法进行处理，其执行对象应该是**main reactor**;
 - 发生读写事件时，则会调用**on_message**方法，执行对象为**sub reactor**.
 
+## nginx配置
+- **(1)** 安装需要先安装pcre、openssl、zlib等库
+- **(2)** 下载nginx安装包并解压
+- **(3)** 编译
+```
+./configure --with-stream
+make && make install
+```
+- **(4)** 进入安装目录，可执行文件在sbin目录里面,配置文件在conf目录里面
+```
+cd /usr/local/nginx/
+```
+- **(5)** 配置nginx.conf文件
+```
+stream {
+    upstream MyServer {
+	server 127.0.0.1:6000 weight=1 max_fails=3 fail_timeout=30s;
+	server 127.0.0.1:6002 weight=1 max_fails=3 fail_timeout=30s;
+    }
 
+    server {
+	proxy_connect_timeout 1s;
+	listen 8000;
+	proxy_pass MyServer;
+	tcp_nodelay on;
+    }
+}
+```
+- **(6)** 停止nginx服务
+```
+sudo nginx -s stop
+```
 
+- **(7)** 启动nginx服务
+```
+cd /usr/local/nginx/sbin
+sudo ./nginx
+```
+- **(8)** 平滑重启nginx
+```
+sudo ./nginx -s reload
+```
+
+## mysql操作
+- **(1)** 开启服务
+```
+systemctl start mysql
+```
+- **(2)** mysql登录
+```
+mysql -u root -p
+```
+- **(3)** 选择表
+```
+use ChatServerDB;
+```
+
+## 服务端
+```
+./ChatServer 127.0.0.1 6000
+./ChatServer 127.0.0.1 6002
+```
+
+## 客户端
+```
+./ChatClient 127.0.0.1 8000
+./ChatClient 127.0.0.1 8000
+./ChatClient 127.0.0.1 8000
+...
+```
 
 
 
