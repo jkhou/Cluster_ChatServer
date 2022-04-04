@@ -223,5 +223,10 @@ use ChatServerDB;
 ...
 ```
 
+## 一致性哈希负载均衡配置器
+```
+./ConsistentHash
+```
+
 
 
