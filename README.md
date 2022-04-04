@@ -152,7 +152,7 @@ void on_message(const TcpConnectionPtr &, Buffer *, Timestamp);
 显示所有的key-val
 
 
-## nginx配置
+## nginx-tcp负载均衡配置
 - **(1)** 安装需要先安装pcre、openssl、zlib等库
 - **(2)** 下载nginx安装包并解压
 - **(3)** 编译
