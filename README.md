@@ -1,5 +1,5 @@
 # Cluster_ChatServer
-**简介**: 工作在nginx tcp负载均衡环境中的集群聊天服务器和客户端, 网络模块基于muduo实现，使用基于发布-订阅的redis消息队列。
+**简介**: 工作在nginx tcp负载均衡/一致性哈希负载均衡　环境中的集群聊天服务器和客户端, 网络模块基于muduo实现，使用基于发布-订阅的redis消息队列。
 
 ## 业务功能
 ```
@@ -134,6 +134,23 @@ void on_message(const TcpConnectionPtr &, Buffer *, Timestamp);
 ```
 - 当用户进行连接或者断开连接时便会调用**on_connection**方法进行处理，其执行对象应该是**main reactor**;
 - 发生读写事件时，则会调用**on_message**方法，执行对象为**sub reactor**.
+
+## 一致性哈希
+#### 1. add [host] [port] [num]
+在哈希环中增添服务器结点，host为IP地址，port为端口，num为虚拟节点数。
+
+#### 2. del [host] [port]
+删除服务器结点。
+
+#### 3. get [host] [port]
+在哈希环中，增添客户端结点，会返回该IP地址所隶属的服务端IP地址和端口号。
+
+#### 4. getVirNum [host] [port]
+获取虚拟结点信息
+
+#### 5. showTime
+显示所有的key-val
+
 
 ## nginx配置
 - **(1)** 安装需要先安装pcre、openssl、zlib等库
