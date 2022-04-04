@@ -68,10 +68,10 @@ RM = /home/hjk/Downloads/CLion-2020.3.1/clion-2020.3.1/bin/cmake/linux/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master
+CMAKE_SOURCE_DIR = /home/hjk/Desktop/Cluster_ChatServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/CMakeFiles/progress.marks
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles 0
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/CMakeFiles/progress.marks
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/clean
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/client/CMakeFiles/ChatClient.dir/rule:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/ChatClient.dir/rule
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/ChatClient.dir/rule
 .PHONY : src/client/CMakeFiles/ChatClient.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ ChatClient: src/client/CMakeFiles/ChatClient.dir/rule
 
 # fast build rule for target.
 ChatClient/fast:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
 .PHONY : ChatClient/fast
 
 main.o: main.cpp.o
@@ -151,7 +151,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.o
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -160,7 +160,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.i
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -169,7 +169,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.s
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hjk/Desktop/chatserver-master/chatserver-master/src
+# Install script for directory: /home/hjk/Desktop/Cluster_ChatServer/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/cmake_install.cmake")
-  include("/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/client/cmake_install.cmake")
+  include("/home/hjk/Desktop/Cluster_ChatServer/build/src/server/cmake_install.cmake")
+  include("/home/hjk/Desktop/Cluster_ChatServer/build/src/client/cmake_install.cmake")
+  include("/home/hjk/Desktop/Cluster_ChatServer/build/src/consistentHash/cmake_install.cmake")
 
 endif()
 

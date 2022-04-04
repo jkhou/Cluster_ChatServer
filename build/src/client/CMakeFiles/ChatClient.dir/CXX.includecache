@@ -354,9 +354,9 @@ limits
 type_traits
 -
 
-/home/hjk/Desktop/chatserver-master/chatserver-master/src/client/main.cpp
+/home/hjk/Desktop/Cluster_ChatServer/src/client/main.cpp
 json.hpp
-/home/hjk/Desktop/chatserver-master/chatserver-master/src/client/json.hpp
+/home/hjk/Desktop/Cluster_ChatServer/src/client/json.hpp
 iostream
 -
 thread
@@ -388,9 +388,9 @@ semaphore.h
 atomic
 -
 group.hpp
-/home/hjk/Desktop/chatserver-master/chatserver-master/src/client/group.hpp
+/home/hjk/Desktop/Cluster_ChatServer/src/client/group.hpp
 user.hpp
-/home/hjk/Desktop/chatserver-master/chatserver-master/src/client/user.hpp
+/home/hjk/Desktop/Cluster_ChatServer/src/client/user.hpp
 public.hpp
-/home/hjk/Desktop/chatserver-master/chatserver-master/src/client/public.hpp
+/home/hjk/Desktop/Cluster_ChatServer/src/client/public.hpp
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hjk/Desktop/chatserver-master/chatserver-master/src/server
+# Install script for directory: /home/hjk/Desktop/Cluster_ChatServer/src/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -64,10 +64,10 @@ RM = /home/hjk/Downloads/CLion-2020.3.1/clion-2020.3.1/bin/cmake/linux/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master
+CMAKE_SOURCE_DIR = /home/hjk/Desktop/Cluster_ChatServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -151,14 +151,14 @@ src/server/clean: src/server/CMakeFiles/ChatServer.dir/clean
 src/server/CMakeFiles/ChatServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12 "Built target ChatServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12 "Built target ChatServer"
 .PHONY : src/server/CMakeFiles/ChatServer.dir/all
 
 # Build rule for subdir invocation for target.
 src/server/CMakeFiles/ChatServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles 0
 .PHONY : src/server/CMakeFiles/ChatServer.dir/rule
 
 # Convenience name for target.
@@ -178,14 +178,14 @@ src/server/CMakeFiles/ChatServer.dir/clean:
 src/client/CMakeFiles/ChatClient.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ChatClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ChatClient"
 .PHONY : src/client/CMakeFiles/ChatClient.dir/all
 
 # Build rule for subdir invocation for target.
 src/client/CMakeFiles/ChatClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/ChatClient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles 0
 .PHONY : src/client/CMakeFiles/ChatClient.dir/rule
 
 # Convenience name for target.

@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hjk/Desktop/chatserver-master/chatserver-master/include -I/home/hjk/Desktop/chatserver-master/chatserver-master/include/server -I/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/db -I/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/model -I/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/redis -I/home/hjk/Desktop/chatserver-master/chatserver-master/thirdparty 
+CXX_INCLUDES = -I/home/hjk/Desktop/Cluster_ChatServer/include -I/home/hjk/Desktop/Cluster_ChatServer/include/server -I/home/hjk/Desktop/Cluster_ChatServer/include/server/db -I/home/hjk/Desktop/Cluster_ChatServer/include/server/model -I/home/hjk/Desktop/Cluster_ChatServer/include/server/redis -I/home/hjk/Desktop/Cluster_ChatServer/thirdparty 
 

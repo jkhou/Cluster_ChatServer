@@ -8,48 +8,48 @@
 		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\server\;CMake Files\src\client\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug"/>
+				<Option working_dir="/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug"/>
+				<Option working_dir="/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug"/>
+				<Option working_dir="/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ChatServer">
-				<Option output="/home/hjk/Desktop/chatserver-master/chatserver-master/bin/ChatServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hjk/Desktop/chatserver-master/chatserver-master/bin"/>
+				<Option output="/home/hjk/Desktop/Cluster_ChatServer/bin/ChatServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hjk/Desktop/Cluster_ChatServer/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/db"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/model"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/redis"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/thirdparty"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/db"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/model"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/redis"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/thirdparty"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -60,25 +60,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 ChatServer"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 ChatServer"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ChatServer/fast">
-				<Option output="/home/hjk/Desktop/chatserver-master/chatserver-master/bin/ChatServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hjk/Desktop/chatserver-master/chatserver-master/bin"/>
+				<Option output="/home/hjk/Desktop/Cluster_ChatServer/bin/ChatServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hjk/Desktop/Cluster_ChatServer/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/db"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/model"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/redis"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/thirdparty"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/db"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/model"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/redis"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/thirdparty"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -89,25 +89,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 ChatServer/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 ChatServer/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/server/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ChatClient">
-				<Option output="/home/hjk/Desktop/chatserver-master/chatserver-master/bin/ChatClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hjk/Desktop/chatserver-master/chatserver-master/bin"/>
+				<Option output="/home/hjk/Desktop/Cluster_ChatServer/bin/ChatClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hjk/Desktop/Cluster_ChatServer/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/db"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/model"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/redis"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/thirdparty"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/db"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/model"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/redis"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/thirdparty"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -118,25 +118,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 ChatClient"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 ChatClient"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ChatClient/fast">
-				<Option output="/home/hjk/Desktop/chatserver-master/chatserver-master/bin/ChatClient" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hjk/Desktop/chatserver-master/chatserver-master/bin"/>
+				<Option output="/home/hjk/Desktop/Cluster_ChatServer/bin/ChatClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hjk/Desktop/Cluster_ChatServer/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/db"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/model"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/include/server/redis"/>
-					<Add directory="/home/hjk/Desktop/chatserver-master/chatserver-master/thirdparty"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/db"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/model"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/include/server/redis"/>
+					<Add directory="/home/hjk/Desktop/Cluster_ChatServer/thirdparty"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -147,53 +147,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 ChatClient/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 ChatClient/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/client/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/client/main.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/client/main.cpp">
 			<Option target="ChatClient"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/chatserver.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/chatserver.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/chatservice.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/chatservice.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/db/db.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/db/db.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/main.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/main.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/friendmoel.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/model/friendmoel.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/groupmodel.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/model/groupmodel.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/offlinemessagemodel.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/model/offlinemessagemodel.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/usermodel.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/model/usermodel.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/redis/redis.cpp">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/redis/redis.cpp">
 			<Option target="ChatServer"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/CMakeLists.txt">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/CMakeLists.txt">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/CMakeLists.txt">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\server\"/>
 		</Unit>
-		<Unit filename="/home/hjk/Desktop/chatserver-master/chatserver-master/src/client/CMakeLists.txt">
+		<Unit filename="/home/hjk/Desktop/Cluster_ChatServer/src/client/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\client\"/>
 		</Unit>
 	</Project>

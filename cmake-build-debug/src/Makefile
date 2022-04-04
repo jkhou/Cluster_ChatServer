@@ -68,10 +68,10 @@ RM = /home/hjk/Downloads/CLion-2020.3.1/clion-2020.3.1/bin/cmake/linux/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master
+CMAKE_SOURCE_DIR = /home/hjk/Desktop/Cluster_ChatServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/src/CMakeFiles/progress.marks
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug/CMakeFiles 0
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/src/CMakeFiles/progress.marks
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,17 +117,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -149,6 +149,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hjk/Desktop/chatserver-master/chatserver-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hjk/Desktop/Cluster_ChatServer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

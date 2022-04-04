@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/chatserver.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/chatservice.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/db/db.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/main.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/friendmoel.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/groupmodel.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/offlinemessagemodel.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/model/usermodel.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
-  "/home/hjk/Desktop/chatserver-master/chatserver-master/src/server/redis/redis.cpp" "/home/hjk/Desktop/chatserver-master/chatserver-master/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/chatserver.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/chatservice.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/db/db.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/main.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/model/friendmoel.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/model/groupmodel.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/model/offlinemessagemodel.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/model/usermodel.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
+  "/home/hjk/Desktop/Cluster_ChatServer/src/server/redis/redis.cpp" "/home/hjk/Desktop/Cluster_ChatServer/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

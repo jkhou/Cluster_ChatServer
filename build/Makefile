@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master
+CMAKE_SOURCE_DIR = /home/hjk/Desktop/Cluster_ChatServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hjk/Desktop/chatserver-master/chatserver-master/build
+CMAKE_BINARY_DIR = /home/hjk/Desktop/Cluster_ChatServer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/build/CMakeFiles /home/hjk/Desktop/chatserver-master/chatserver-master/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/build/CMakeFiles /home/hjk/Desktop/Cluster_ChatServer/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/chatserver-master/chatserver-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjk/Desktop/Cluster_ChatServer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,6 +136,19 @@ ChatClient/fast:
 	$(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
 .PHONY : ChatClient/fast
 
+#=============================================================================
+# Target rules for targets named ConsistentHash
+
+# Build rule for target.
+ConsistentHash: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ConsistentHash
+.PHONY : ConsistentHash
+
+# fast build rule for target.
+ConsistentHash/fast:
+	$(MAKE) -f src/consistentHash/CMakeFiles/ConsistentHash.dir/build.make src/consistentHash/CMakeFiles/ConsistentHash.dir/build
+.PHONY : ConsistentHash/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +159,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... ChatServer"
 	@echo "... ChatClient"
+	@echo "... ConsistentHash"
 .PHONY : help
 
 
